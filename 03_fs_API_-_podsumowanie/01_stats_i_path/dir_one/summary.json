@@ -1,0 +1,72 @@
+[
+  {
+    "basename": "file_0.txt",
+    "extname": ".txt",
+    "dirname": "/Users/karolina/projects/cl/ONL_FSF_E_25_Wprowadzenie_do_Nodejs-main/03_fs_API_-_podsumowanie/01_stats_i_path/file_0.txt",
+    "isFile": true,
+    "isDirectory": false
+  },
+  {
+    "basename": "file_1.txt",
+    "extname": ".txt",
+    "dirname": "/Users/karolina/projects/cl/ONL_FSF_E_25_Wprowadzenie_do_Nodejs-main/03_fs_API_-_podsumowanie/01_stats_i_path/file_1.txt",
+    "isFile": true,
+    "isDirectory": false
+  },
+  {
+    "basename": "file_2.txt",
+    "extname": ".txt",
+    "dirname": "/Users/karolina/projects/cl/ONL_FSF_E_25_Wprowadzenie_do_Nodejs-main/03_fs_API_-_podsumowanie/01_stats_i_path/file_2.txt",
+    "isFile": true,
+    "isDirectory": false
+  },
+  {
+    "basename": "file_3.txt",
+    "extname": ".txt",
+    "dirname": "/Users/karolina/projects/cl/ONL_FSF_E_25_Wprowadzenie_do_Nodejs-main/03_fs_API_-_podsumowanie/01_stats_i_path/file_3.txt",
+    "isFile": true,
+    "isDirectory": false
+  },
+  {
+    "basename": "file_4.txt",
+    "extname": ".txt",
+    "dirname": "/Users/karolina/projects/cl/ONL_FSF_E_25_Wprowadzenie_do_Nodejs-main/03_fs_API_-_podsumowanie/01_stats_i_path/file_4.txt",
+    "isFile": true,
+    "isDirectory": false
+  },
+  {
+    "basename": "file_5.txt",
+    "extname": ".txt",
+    "dirname": "/Users/karolina/projects/cl/ONL_FSF_E_25_Wprowadzenie_do_Nodejs-main/03_fs_API_-_podsumowanie/01_stats_i_path/file_5.txt",
+    "isFile": true,
+    "isDirectory": false
+  },
+  {
+    "basename": "file_6.txt",
+    "extname": ".txt",
+    "dirname": "/Users/karolina/projects/cl/ONL_FSF_E_25_Wprowadzenie_do_Nodejs-main/03_fs_API_-_podsumowanie/01_stats_i_path/file_6.txt",
+    "isFile": true,
+    "isDirectory": false
+  },
+  {
+    "basename": "file_7.txt",
+    "extname": ".txt",
+    "dirname": "/Users/karolina/projects/cl/ONL_FSF_E_25_Wprowadzenie_do_Nodejs-main/03_fs_API_-_podsumowanie/01_stats_i_path/file_7.txt",
+    "isFile": true,
+    "isDirectory": false
+  },
+  {
+    "basename": "file_8.txt",
+    "extname": ".txt",
+    "dirname": "/Users/karolina/projects/cl/ONL_FSF_E_25_Wprowadzenie_do_Nodejs-main/03_fs_API_-_podsumowanie/01_stats_i_path/file_8.txt",
+    "isFile": true,
+    "isDirectory": false
+  },
+  {
+    "basename": "file_9.txt",
+    "extname": ".txt",
+    "dirname": "/Users/karolina/projects/cl/ONL_FSF_E_25_Wprowadzenie_do_Nodejs-main/03_fs_API_-_podsumowanie/01_stats_i_path/file_9.txt",
+    "isFile": true,
+    "isDirectory": false
+  }
+]
