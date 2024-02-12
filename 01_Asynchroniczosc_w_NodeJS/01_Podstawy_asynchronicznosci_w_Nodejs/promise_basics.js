@@ -18,3 +18,8 @@ const getAsyncNumbers = () => {
     );
   });
 };
+
+getAsyncNumbers()
+    .finally(() => console.log("Proces zakończony"))
+    .then((data) => console.log(data.sort()))
+    .catch((err) => console.log(err.message));
