@@ -38,3 +38,10 @@ Promise.all([Promise.resolve(1), Promise.reject(new Error("Cośtam")), Promise.r
     .catch((error) => {
       console.log("error", error);
     });
+
+// async function main() {
+//     const data = await Promise.resolve("string");
+//     console.log(data);
+// }
+//
+// main();

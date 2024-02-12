@@ -55,3 +55,52 @@ async function createDir() {
 }
 
 createDir();
+
+
+
+//import fs from "fs";
+// import path from "path";
+//
+// const getRandomNumber = (max = 100_000_000) => Math.floor(Math.random() * max);
+//
+// const dirOne = "./dir_one";
+//
+// function generateFileData() {
+//   let content = "";
+//   for (let index = 0; index < 4; index++) {
+//     content += `${getRandomNumber()}\n`;
+//   }
+//   return content;
+// }
+//
+// async function getFileStats(filePath) {
+//   const fileStats = await fs.promises.stat(filePath);
+//   return {
+//     basename: path.basename(filePath),
+//     extname: path.extname(filePath),
+//     dirname: path.dirname(filePath),
+//     size: fileStats.size,
+//     birthtime: fileStats.birthtime,
+//     isFile: fileStats.isFile(),
+//     isDirectory: fileStats.isDirectory(),
+//   };
+// }
+//
+// async function main() {
+//   try {
+//     await fs.promises.mkdir(dirOne);
+//   } catch {}
+//
+//   const files = [];
+//
+//   for (let index = 1; index <= 10; index++) {
+//     const filePath = path.join(dirOne, `file_${index}.txt`);
+//     const fileContent = generateFileData();
+//     await fs.promises.writeFile(filePath, fileContent);
+//     files.push(await getFileStats(filePath));
+//   }
+//
+//   fs.promises.writeFile("./responses.json", JSON.stringify(files, null, 2));
+// }
+//
+// main();

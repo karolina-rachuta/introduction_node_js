@@ -1,25 +1,41 @@
-const getRandomDelay = (maxDelay) => {
-  return (Math.floor(Math.random() * maxDelay)) * 1000;
-};
+// const getRandomDelay = (maxDelay) => {
+//   return (Math.floor(Math.random() * maxDelay)) * 1000;
+// };
+//
+// const getAsyncNumbers = () => {
+//   var successDelay = getRandomDelay(10);
+//   var errorDelay = getRandomDelay(10);
+//
+//   return new Promise((resolve, reject) => {
+//     setTimeout(
+//       () => resolve([1, 3, 5, 6, 4, 2]),
+//       successDelay
+//     );
+//
+//     setTimeout(
+//       () => reject(new Error('No numbers found :(')),
+//       errorDelay
+//     );
+//   });
+// };
 
-const getAsyncNumbers = () => {
-  var successDelay = getRandomDelay(10);
-  var errorDelay = getRandomDelay(10);
+// getAsyncNumbers()
+//     .finally(() => console.log("Proces zakończony"))
+//     .then((data) => console.log(data.sort()))
+//     .catch((err) => console.log(err.message));
 
-  return new Promise((resolve, reject) => {
-    setTimeout(
-      () => resolve([1, 3, 5, 6, 4, 2]), 
-      successDelay
-    );
+// async function main() {
+//   try {
+//     const numbers = await getAsyncNumbers();
+//     const sortedNumbers = numbers.sort();
+//     console.log(sortedNumbers);
+//   } catch (error) {
+//     console.log(error.message);
+//   } finally {
+//     console.log("Proces zakończony");
+//   }
+// }
 
-    setTimeout(
-      () => reject(new Error('No numbers found :(')), 
-      errorDelay
-    );
-  });
-};
+// main();
 
-getAsyncNumbers()
-    .finally(() => console.log("Proces zakończony"))
-    .then((data) => console.log(data.sort()))
-    .catch((err) => console.log(err.message));
+

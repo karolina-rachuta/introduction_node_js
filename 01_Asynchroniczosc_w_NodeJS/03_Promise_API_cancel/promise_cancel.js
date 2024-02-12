@@ -12,3 +12,29 @@ const getAsyncNumbers = () => {
     );
   });
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function failAfter3sec() {
+//   return new Promise((_, reject) => {
+//     setTimeout(() => reject(new Error("minelo 3 sec")), 3000);
+//   });
+// }
+//
+// async function main() {
+//   const data = await Promise.race([failAfter3sec(), getAsyncNumbers()]);
+//   console.log(data);
+// }
+//
+// main();
