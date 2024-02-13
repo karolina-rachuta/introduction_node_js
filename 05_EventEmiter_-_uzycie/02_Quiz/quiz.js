@@ -9,7 +9,8 @@ const emitter = new EventEmitter();
 let correct = 0;
 let wrong = 0;
 emitter.on("correct", () => { console.log("correct"); correct++})
-emitter.on("wrong", () => { console.log("wrong"); wrong++})
+
+// emitter.on("wrong", () => { console.log("wrong"); wrong++})
 emitter.on("result", (data) => {
     if(data >= 75){
         console.log(`gratulacje zdałeś! + ${data}`)
