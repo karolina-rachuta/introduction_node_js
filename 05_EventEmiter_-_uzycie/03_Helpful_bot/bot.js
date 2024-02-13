@@ -2,6 +2,7 @@
 import inquirer from 'inquirer';
 import { EventEmitter } from 'events';
 
+const emitter = new EventEmitter();
 const { prompt } = inquirer;
 
 const activity = [
@@ -32,7 +33,32 @@ const listOfJokes = [
 ];
 
 async function flow() {
-  while (true) {}
+  while (true) {
+    const userChoice = await prompt(
+      {
+        type: 'list',
+        name: 'activity',
+        message: 'What do you want me to do?',
+        choices: activity,
+      });
+    if (userChoice.activity === 'Give me date and time') {
+      const date = new Date();
+      console.log(`Current time and date: ${date}`)
+      emitter.emit('data')
+    }
+
+    if (userChoice.activity === 'Tell me a joke') {
+      const numberOfJokes = listOfJokes.length;
+      let randomNumber = Math.floor(Math.random()*numberOfJokes+1);
+      let chosenJoke = listOfJokes[randomNumber];
+      console.log(chosenJoke);
+      emitter.emit('joke')
+    }
+
+    if (userChoice.activity === 'Say a compliment') {
+
+    }
+  }
 }
 
 flow();
