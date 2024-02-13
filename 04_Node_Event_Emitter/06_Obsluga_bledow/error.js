@@ -1,7 +1,7 @@
 import * as events from "events";
 import fs from 'fs';
 
-const eventEmitter = new events.EventEmitter;
+const eventEmitter = new events.EventEmitter();
 //A:
 fs.readFile("notExisting.txt", (err, data) => {
     console.log("error", err);

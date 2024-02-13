@@ -1,6 +1,6 @@
 import * as events from "events";
 
-const eventEmitter = new events.EventEmitter;
+const eventEmitter = new events.EventEmitter();
 
 eventEmitter.on('On', (value) => {
     console.log(`testON ${value}`)
