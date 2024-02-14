@@ -2,7 +2,7 @@ const fs = require('fs')
 
 const target = __dirname + '/target.txt'
 const writeStream = fs.createWriteStream(target)
-const yourCustomMessage = 'Initial text.'
+const yourCustomMessage = 'Initial text kr.'
 
 writeStream.on('open', (data) => {
     console.log('I received some data to process..')
@@ -10,4 +10,5 @@ writeStream.on('open', (data) => {
 })
 
 writeStream.write(yourCustomMessage)
+console.log(yourCustomMessage)
 
