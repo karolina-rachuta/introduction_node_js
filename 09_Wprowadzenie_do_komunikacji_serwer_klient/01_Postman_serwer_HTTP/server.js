@@ -1,4 +1,5 @@
 const http = require('http')
+const fs = require('fs')
 
 const server = http.createServer(async (req, res) => {
     if (req.method === 'GET' && req.url === '/user') {
@@ -17,9 +18,21 @@ const server = http.createServer(async (req, res) => {
         res.end('Server received a PATCH request')
     }
 
-    res.end()
-})
+    let str = "";
+    if (req.method === 'POST' && req.url === "/file") {
+        req.on("data", (chunk) => {
+            console.log("chunk:", chunk);
+            str += chunk.toString();
+        });
 
+        req.on("end", () => {
+            fs.promises.writeFile("./output.txt", str);
+        });
+
+        
+    }
+
+})
 server.listen(8080, () => {
     console.log('Listening on port 8080')
 })
