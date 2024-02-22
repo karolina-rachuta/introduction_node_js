@@ -1,7 +1,12 @@
-{
-  "Ogniem i Mieczem": {
+[
+  {
     "title": "Ogniem i Mieczem",
     "author": "Henryk Sienkiewicz",
     "date": "1884"
+  },
+  {
+    "title": "Becoming",
+    "author": "Obama M.",
+    "date": "2015"
   }
-}
+]

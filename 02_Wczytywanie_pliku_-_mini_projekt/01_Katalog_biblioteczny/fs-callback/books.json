@@ -1,7 +1,17 @@
-{
-  "Ogniem i Mieczem": {
+[
+  {
     "title": "Ogniem i Mieczem",
     "author": "Henryk Sienkiewicz",
     "date": "1884"
+  },
+  {
+    "title": "hhh",
+    "author": "hjk",
+    "date": "333"
+  },
+  {
+    "title": "hhhhl",
+    "author": "lkjhgfd",
+    "date": "98765"
   }
-}
+]
