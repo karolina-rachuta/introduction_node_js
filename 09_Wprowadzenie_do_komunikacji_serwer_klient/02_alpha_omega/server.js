@@ -1,14 +1,23 @@
-const http = require('http')
-const axios = require('axios')
-
-const alpha = http.createServer(async (req, res) => {
-    // your code goes here
-
-})
-
-const omega = http.createServer(async (req, res) => {
-    // your code goes here
-})
-
-alpha.listen(8000, console.log('Alpha listening'))
-omega.listen(9000, console.log('Omega listening'))
+// #!/usr/bin/node
+//
+// const fs = require("fs");
+// const filename = process.argv[2];
+//
+// if (!filename) {
+//     console.error("Please provide a filename");
+//     process.exit(1);
+// }
+//
+// process.stdin.on("data", async (chunk) => {
+//     console.log("chunk:", chunk);
+//
+//     console.log(process.argv)
+//
+//     const string = chunk.toString();
+//
+//     if (string.includes("Coderslab")) {
+//         process.exit(0);
+//     }
+//
+//     await fs.promises.appendFile(filename, chunk.toString(), "utf-8");
+// });
